@@ -1,6 +1,6 @@
 const API_KEY = "587cfdefa8c900599e0226755dd3d307"; // TMDBのAPIKeyを入れる
 
-export const requests = {
+export const requestMovies = {
   feachTrending: `/trending/all/week?api_key=${API_KEY}&language=en-us`,
   feachNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
   feactTopRated: `/discover/tv?api_key=${API_KEY}&languager=en-us`,
