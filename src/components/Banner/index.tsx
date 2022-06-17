@@ -55,7 +55,7 @@ export const Banner = () => {
       }}
     >
       <div className="Banner-contents">
-        <h1 className="banner-title">
+        <h1 className="Banner-title">
           {movie?.title || movie?.name || movie?.orignal_name}
         </h1>
         <div className="Banner-buttons">
