@@ -1,9 +1,11 @@
 import { RowComponent } from "./components/Row";
 import { requestMovies } from "./utils/requestMovies";
 import { Banner } from "./components/Banner/";
+import { Nav } from "./components/Nav";
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Banner />
       <RowComponent
         title="NETFLIX ORIGUINALS"
